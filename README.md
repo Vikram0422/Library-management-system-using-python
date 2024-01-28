@@ -1,19 +1,28 @@
-# Guess the Number Game
+# Library Management System
 
-This Python project challenges you to guess a randomly generated number between 0 and 100. Test your intuition and see how quickly you can guess the correct number!
+This Python project simulates a Library Management System where students can borrow and return books. The library keeps track of available books and issues them to students.
 
 ## Features
 
-- **Random Number Generation:**
-  - The computer generates a random number between 0 and 100 for you to guess.
+- **Display Available Books:**
+  - View a list of books currently available in the library.
 
-- **User Interaction:**
-  - Input your guesses and receive feedback on whether the correct number is higher or lower.
+- **Borrow a Book:**
+  - Students can request to borrow a book from the library. The system checks availability and issues the book if it's available.
 
-- **Highscore Tracking:**
-  - Your best score (lowest number of guesses) is tracked and compared to the previous highscore.
+- **Return a Book:**
+  - Students can return a borrowed book to the library.
 
 ## Implementation
 
-This game is implemented in Python, utilizing the `random` module for generating random numbers. The highscore is saved in a `hiscore.txt` file.
+The project consists of two classes:
+
+- **Library:**
+  - Manages the list of available books.
+  - Displays available books.
+  - Handles book borrowing and returning.
+
+- **Student:**
+  - Represents a student interacting with the library.
+  - Requests and returns books.
 
